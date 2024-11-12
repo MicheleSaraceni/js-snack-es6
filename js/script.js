@@ -10,26 +10,11 @@ Stampare a schermo la bici con peso minore.
 
 //Creo un array di oggetti bici 
 const bikes = [
-    {
-        name: "Bicicletta da Corsa",
-        weight: 8
-    },
-    {
-        name: "Mountain Bike",
-        weight: 13
-    },
-    {
-        name: "Bicicletta Ibrida",
-        weight: 12
-    },
-    {
-        name: "Bicicletta Pieghevole",
-        weight: 11
-    },
-    {
-        name: "E-bike",
-        weight: 20
-    }
+    { name: "Bicicletta da Corsa",weight: 8 },
+    { name: "Mountain Bike",weight: 13 },
+    { name: "Bicicletta Ibrida",weight: 12 },
+    { name: "Bicicletta Pieghevole", weight: 11 },
+    { name: "E-bike", weight: 20 }
 ]
 
 //Faccio un ciclo sull'array e salvo in una var la bici piu leggera
@@ -52,7 +37,15 @@ Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “
 Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 */
 
-
+//Creo un array di oggetti bici squadre di calcio 
+let squadre = [
+    { nome: 'Juventus', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'Inter', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'Milan', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'Roma', puntiFatti: 0, falliSubiti: 0 },
+    { nome: 'Napoli', puntiFatti: 0, falliSubiti: 0 }
+  ];
+  
 
 /* 
 Snack 3 (Bonus)
