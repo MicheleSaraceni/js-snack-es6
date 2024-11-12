@@ -8,7 +8,28 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare a schermo la bici con peso minore. 
 */
 
-
+const bici = [
+    {
+        name: "Bicicletta da Corsa",
+        weight: 8
+    }
+    {
+        name: "Mountain Bike",
+        weight: 13
+    }
+    {
+        name: "Bicicletta Ibrida",
+        weight: 12
+    }
+    {
+        name: "Bicicletta Pieghevole",
+        weight: 11
+    }
+    {
+        name: "E-bike",
+        weight: 20
+    }
+]
 
 /*
 Snack2
