@@ -46,6 +46,19 @@ let squadre = [
     { nome: 'Napoli', puntiFatti: 0, falliSubiti: 0 }
   ];
   
+//Creo un ciclo e inserisco numeri random con la mia funzione per puntiFatti e per falliSubiti
+for (let i = 0; i < squadre.length; i++){
+    squadre[i].puntiFatti = random(0, 30);
+    squadre[i].falliSubiti = random(0, 10);
+}
+
+//creo un nuovo array di oggetti con all'interno solamente nome e falli subiti e stampo in console
+let fallitotali = [];
+for (let i = 0; i < squadre.length; i++) {
+    let { nome, falliSubiti } = squadre[i];
+    fallitotali.push({ nome, falliSubiti });
+    console.log("La squadra " + fallitotali[i].nome + " ha subito " + fallitotali[i].falliSubiti + " falli.");
+}
 
 /* 
 Snack 3 (Bonus)
