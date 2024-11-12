@@ -8,28 +8,40 @@ Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e pe
 Stampare a schermo la bici con peso minore. 
 */
 
-const bici = [
+//Creo un array di oggetti bici 
+const bikes = [
     {
         name: "Bicicletta da Corsa",
         weight: 8
-    }
+    },
     {
         name: "Mountain Bike",
         weight: 13
-    }
+    },
     {
         name: "Bicicletta Ibrida",
         weight: 12
-    }
+    },
     {
         name: "Bicicletta Pieghevole",
         weight: 11
-    }
+    },
     {
         name: "E-bike",
         weight: 20
     }
 ]
+
+//Faccio un ciclo sull'array e salvo in una var la bici piu leggera
+let lightbike = bikes[0];
+for (let i = 1; i < bikes.length; i++){
+    if (bikes[i].peso < lightbike.peso){
+        lightbike = bikes[i];
+    }
+}
+
+//stampo la bici piu leggera
+console.log("La bici più leggera è " + lightbike.name + " e pesa " + lightbike.weight + "kg.");
 
 /*
 Snack2
